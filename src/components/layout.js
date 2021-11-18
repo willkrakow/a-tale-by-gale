@@ -27,7 +27,6 @@ const Layout = ({ location, title, children }) => {
       <main className="main-wrapper">{children}</main>
       <footer>
         <Bio />
-        © {new Date().getFullYear()} by {` `}<a href="https://williamkrakow.dev/">William</a>.
       </footer>
     </div>
   )
