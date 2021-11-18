@@ -2,7 +2,7 @@
 title: Hello World
 date: "2015-05-01T22:12:03.284Z"
 description: "Hello World"
-featuredImage: salty_egg.jpg
+featuredImage: mountain.jpeg
 category: etc
 ---
 
@@ -48,20 +48,8 @@ This is [an example][id] reference-style link.
 
 [id]: http://example.com "Optional Title"
 
-And finally, some rarely-used stuff:
-
-_single asterisks_
-
-_single underscores_
-
-**double asterisks**
-
-**double underscores**
-
 This paragraph has some `code` in it.
 
-    This paragraph has some `code` in it.
+    This paragraph has all `code` in it.
 
-![Alt Text](https://placehold.it/200x50 "Image Title")
-
-    ![Alt Text](https://placehold.it/200x50 "Image Title")
+![Alt Text](https://images.unsplash.com/photo-1636704169578-c4c3d9a90b0c?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYzNzI1MTg3NQ&ixlib=rb-1.2.1&q=80&w=500 "Image Title")
