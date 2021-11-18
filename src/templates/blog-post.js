@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
@@ -22,8 +23,10 @@ const BlogPostTemplate = ({ data, location }) => {
         itemType="http://schema.org/Article"
       >
         <header>
-          <h1 itemProp="headline">{post.frontmatter.title}</h1>
+          <h2 itemProp="headline">{post.frontmatter.title}</h2>
           <p>{post.frontmatter.date}</p>
+          <small>{post.timeToRead} min read</small>
+          <GatsbyImage image={post.frontmatter.featuredImage.childImageSharp.gatsbyImageData} alt={post.frontmatter.title} />
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -81,10 +84,16 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       html
+      timeToRead
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        featuredImage {
+          childImageSharp {
+            gatsbyImageData(aspectRatio: 1.5)
+          }
+        }
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {

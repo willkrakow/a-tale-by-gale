@@ -1,26 +1,15 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's blog starter
-</h1>
-
-Kick off your project with this blog boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
-
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
+# A Tale By Gale
+#### A blog by me, Laura Gale
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+1.  **Open your terminal.**
 
-    Use the Gatsby CLI ([install instructions](https://www.gatsbyjs.com/docs/tutorial/part-0/#gatsby-cli)) to create a new site, specifying the blog starter.
+    Hit Command+Space and type `terminal`, then hit `Enter`. In the terminal, type: `git clone https://github.com/willkrakow/a-tale-by-gale` and hit enter again.
 
     ```shell
-    # create a new Gatsby site using the blog starter
-    gatsby new my-blog-starter https://github.com/gatsbyjs/gatsby-starter-blog
+    # clone the site to your local computer
+    git clone https://github.com/willkrakow/a-tale-by-gale
     ```
 
 1.  **Start developing.**
@@ -28,7 +17,8 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-blog-starter/
+    cd a-tale-by-gale/
+    npm install
     gatsby develop
     ```
 
@@ -40,11 +30,32 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     Open the `my-blog-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
-## 🚀 Quick start (Gatsby Cloud)
+## Write a new blog post
+1. In the directory, open the `content/blog` folder. Create a new folder inside this directory, as well as a Markdown file for the post:
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+```shell
+mkdir my-new-post
+touch my-new-post/index.md
+```
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-blog)
+Then open the `index.md` file and start writing!
+
+1. Add an image by dragging it into the `my-new-post` folder. Then, insert it in the `index.md` file like so:
+
+```markdown
+![Alt Text](https://placehold.it/200x50 "Image Title")
+```
+
+## Deploy the blog
+When you're ready to publish, type the following commands into the terminal:
+
+```
+git add .
+git commit -m "Write something here describing what you're publishing"
+git push origin master
+```
+
+That's it! Your new post will be live in no time.
 
 ## 🧐 What's inside?
 

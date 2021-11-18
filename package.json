@@ -1,13 +1,16 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "a-tale-by-gale",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Changing the world one pain-in-the-butt-patient at a time.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "William Krakow <willkrakow@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/willkrakow/a-tale-by-gale/issues"
   },
   "dependencies": {
+    "@fontsource/merriweather": "^4.5.1",
+    "@fontsource/montagu-slab": "^4.5.0",
+    "@fontsource/montserrat": "^4.5.1",
     "gatsby": "^4.2.0",
     "gatsby-plugin-feed": "^4.2.0",
     "gatsby-plugin-gatsby-cloud": "^4.2.0",
@@ -28,14 +31,12 @@
     "prismjs": "^1.25.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0",
-    "typeface-merriweather": "0.0.72",
-    "typeface-montserrat": "0.0.75"
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
     "prettier": "^2.4.1"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://atalebygale.com/",
   "keywords": [
     "gatsby"
   ],
@@ -43,7 +44,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/willkrakow/a-tale-by-gale"
   },
   "scripts": {
     "build": "gatsby build",

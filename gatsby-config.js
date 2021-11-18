@@ -1,14 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `ATBG`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Laura Gale Campbell`,
+      summary: ` is stunning and brilliant and lovely and kind.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Changing the world one pain-in-the-butt-patient at a time.`,
+    siteUrl: `https://atalebygale.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      tiktok: `@a.tale.by.gale`,
+      facebook: `lgcampbell97`,
+      instagram: 'campbellsoup130'
     },
   },
   plugins: [
