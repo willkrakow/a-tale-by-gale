@@ -6,50 +6,14 @@ featuredImage: mountain.jpeg
 category: etc
 ---
 
-This is my first post. That's exciting in itself, right?
+Hello World,
 
-Just so you know what to look out for, here are the styles I'll be using throughout this site:
+I’m Gale.  I’m a daughter, a sister, a fiance, a dog mom, and a nurse. Most recently, though, the title that has most heavily defined my life is nurse. 
 
-# Header 1
-For the biggest, most important stuff.
+I’ve been stuck in the trenches of pandemic nursing for the last 18 months. For quite a while, the weight of being a pandemic nurse left me depleted, angry, and hopeless. Then one day I realized my cup was empty. There was nothing left to pour. I was ready to close the door on nursing entirely. I went to my manager and told her, “I just feel depleted.” Together we came up with a plan to improve my mental and physical health, and after months of hard work, I’ve managed to figure out a thing or two about self-love in nursing and I’m excited to share what I’ve learned with all the other nurses out there that may be struggling right now.
 
-## Header 2
-For big, and still relatively important stuff, like page titles.
+If you’re more of a visual/musical person, head on over to my TikTok for some light-hearted routines, nursing tips, workouts, and healthy recipes.
 
-### Header 3
-For specific chunks of a page, like subtitles of a page.
+Thanks for popping in. Until next time,
 
-#### Header 4
-For individual items, like titles of a list of blog posts.
-
-##### Header 5
-For emphasis, or brief descriptions.
-
-###### Header 6
-Basically never used, but sometimes for meta-descriptions.
-
-We can also do lists!
-
-- Here's an item
-- And here's another
-- Finally–because all good things come in threes–here's a third
-
-Numbered lists are also pretty fun for counting things.
-
-1. Wow!
-2. Really?
-3. Well, yeah.
-
-And within each line, you might see **bold** statements, or *italic* ones.
-
-To link to less-cool site, I'll do [this](http://williamkrakow.dev).
-
-This is [an example][id] reference-style link.
-
-[id]: http://example.com "Optional Title"
-
-This paragraph has some `code` in it.
-
-    This paragraph has all `code` in it.
-
-![Alt Text](https://images.unsplash.com/photo-1636704169578-c4c3d9a90b0c?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYzNzI1MTg3NQ&ixlib=rb-1.2.1&q=80&w=500 "Image Title")
+**Gale**
