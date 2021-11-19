@@ -16,4 +16,4 @@ If you’re more of a visual/musical person, head on over to my TikTok for some 
 
 Thanks for popping in. Until next time,
 
-**Gale**
+*Gale*
